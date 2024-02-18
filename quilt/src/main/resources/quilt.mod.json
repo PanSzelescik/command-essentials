@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "commandessentials",
+    "version": "${version}",
+    "metadata": {
+      "name": "Command Essentials",
+      "description": "Right click with the dye on some blocks to color them!",
+      "contributors": {
+        "PanSzelescik": "Owner"
+      },
+      "contact": {
+        "website": "https://www.curseforge.com/minecraft/mc-mods/colorize",
+        "repo": "https://github.com/PanSzelescik/colorize",
+        "issues": "https://github.com/PanSzelescik/colorize/issues",
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/colorize",
+        "sources": "https://github.com/PanSzelescik/colorize"
+      }
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "pl.panszelescik.commandessentials.quilt.CommandEssentialsQuilt"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilted_fabric_api",
+        "versions": "*"
+      },
+      {
+        "id": "minecraft",
+        "versions": ">=1.19.3"
+      }
+    ]
+  },
+  "minecraft": {
+    "environment": "*"
+  }
+}

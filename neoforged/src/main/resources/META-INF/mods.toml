@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "All Rights Reserved"
+issueTrackerURL="https://github.com/PanSzelescik/colorize/issues"
+[[mods]]
+modId = "commandessentials"
+version = "${version}"
+displayName = "Command Essentials"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/colorize"
+authors = "PanSzelescik"
+description = '''
+Right click on the dye on some blocks to color them!
+'''
+[[dependencies.commandessentials]]
+modId = "neoforge"
+type = "required"
+versionRange = "[20.4,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.commandessentials]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.20.4,)"
+ordering = "NONE"
+side = "BOTH"
